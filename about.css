@@ -8,7 +8,7 @@ html {
 }
 
 
-header {
+header { 
     border-bottom: 1px solid black;
     background-color: royalblue;
     text-align: right;
@@ -20,3 +20,45 @@ footer {
     position: sticky;
     text-align: center;
 }
+.carousel-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .carousel-images {
+    width: 80%;
+    background: #fa8d8e;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px #f2cd99;
+  }
+  
+  .carousel-images img {
+    width: 100%;
+    border-radius: 10px;
+    display: none;
+    object-fit: contain;
+  }
+  
+  .carousel-images img:first-of-type {
+    display: block;
+  }
+  
+  .carousel-button {
+    align-self: center;
+    background: #f2cd99;
+    color: #888;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px #fa8d8e;
+  }
+  
+  .carousel-button:hover {
+    cursor: pointer;
+    background: #fa8d8e;
+    box-shadow: 1px 1px #f2cd99;
+    color: white;
+  }

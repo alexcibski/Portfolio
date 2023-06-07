@@ -39,3 +39,28 @@ p {
     border-radius: 10px;
     
 }
+#modal {
+    background-color: rgba(37, 111, 108, 0.3);
+    position: center;
+    top: auto;
+    left: auto;
+    height: 50%;
+    width: 50%;
+    z-index: 1;
+    overflow: auto;
+    margin: 150px auto;
+    display: none;
+}
+#modal-textbox {
+    background-color: white;
+    height: 135px;
+    width: 255px;
+    border-radius: 5px;
+    margin: 25px auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#close {
+    background-color: rgba(37, 111, 108, 0.3);
+    border-radius: 5px;
+    margin-top: 3px;
+}

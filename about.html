@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
     <link rel="stylesheet" href="about.css">
     <script src="app.js" defer></script>
     <script src="about.js" defer></script>
@@ -23,10 +25,11 @@
     <h1>About</h1> 
     </div>
     <br>
-    <div id="about-blurb">
-    <p>Hi! My name is Alex, and welcome to my about page! I am a software engineering student living in Seattle, WA. These days I spend most of my time hunched over my laptop. Prior to being a software engineering student, I was a barista with a thirst for good coffee and even better adventures. I like to spend my free time challenging myself and exploring the beauty of the PNW!</p>
-</div>
+    
 <br>
+
+    <div class="pure-g">
+    <div class="pure-u-1-8"></div>
     <div class="carousel-container">
 
         <div class="carousel-button prev">Prev</div>
@@ -41,6 +44,17 @@
         </div>
         <div class="carousel-button next">Next</div>
     </div>
+    <div class="pure-u-1-8"></div>
+</div>
+<br>
+    <div class="pure-g">
+        <div class="pure-u-1-8"></div>
+        <div class="pure-u-1-8" id="about-blurb">
+        <p>Hi! My name is Alex, and welcome to my about page! I am a software engineering student living in Seattle, WA. These days I spend most of my time hunched over my laptop. Prior to being a software engineering student, I was a barista with a thirst for good coffee and even better adventures. I like to spend my free time challenging myself and exploring the beauty of the PNW!</p>
+    </div>
+    <div class="pure-u-1-8"></div>
+    </div>
+<br>
     <footer>
         <a><button id="openModal">email</button></a>
         <div id="modal">

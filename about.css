@@ -1,112 +1,114 @@
 * { 
-    margin: 0;
-    box-sizing: border-box;
-    min-height: 100%vh;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 100%vh;
 }
 
 html {
-    background-color: #EEA47F;
+  background-color: #EEA47F;
 }
 
 
 header { 
-    border-bottom: 1px solid black;
-    background-color: royalblue;
-    text-align: right;
+  border-bottom: 1px solid black;
+  background-color: royalblue;
+  text-align: right;
 }
 
 #about-box {
-  border: 1px solid rgb(0, 166, 255);
-    border-radius: 5px;
-    width: 180px;
-    background-color: lightblue;
-    text-align: center;
-    margin: 5px;
+border: 1px solid rgb(0, 166, 255);
+  border-radius: 5px;
+  width: 180px;
+  background-color: royalblue;
+  color: white;
+  text-align: center;
+  margin: 5px;
 }
 
 #about-blurb {
-  width: 250px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: lightblue;
-  border: 1px solid rgb(0, 166, 255);
-  border-radius: 10px;
+width: 250px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+background-color: #548687;
+color: lightyellow;
+border: 1px solid rgb(0, 166, 255);
+border-radius: 10px;
 }
 
 footer {
-  border-top: 1px solid black;
-  background-color: royalblue;
-  position: sticky;
-  text-align: center;
-    
+border-top: 1px solid black;
+background-color: royalblue;
+position: sticky;
+text-align: center;
+  
 }
 .carousel-container {
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .carousel-images {
-    width: 250px;
-    height: 405px;
-    background: #fa8d8e;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 2px 2px #f2cd99;
-  }
-  
-  .carousel-images img {
-    height: 400px;
-    width: 100%;
-    border-radius: 10px;
-    display: none;
-    object-fit: contain;
-  }
-  
-  .carousel-images img:first-of-type {
-    display: block;
-  }
-  
-  .carousel-button {
-    align-self: center;
-    background: #f2cd99;
-    color: #888;
-    padding: 10px;
-    border-radius: 50%;
-    text-align: center;
-    box-shadow: 1px 1px #fa8d8e;
-  }
-  
-  .carousel-button:hover {
-    cursor: pointer;
-    background: #fa8d8e;
-    box-shadow: 1px 1px #f2cd99;
-    color: white;
-  }
-  #modal {
-    background-color: rgba(37, 111, 108, 0.3);
-    position: center;
-    top: auto;
-    left: auto;
-    height: 50%;
-    width: 50%;
-    z-index: 1;
-    overflow: auto;
-    margin: 150px auto;
-    display: none;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-images {
+  width: 250px;
+  height: 405px;
+  background: #fa8d8e;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px #f2cd99;
+}
+
+.carousel-images img {
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
+  display: none;
+  object-fit: contain;
+}
+
+.carousel-images img:first-of-type {
+  display: block;
+}
+
+.carousel-button {
+  align-self: center;
+  background: #f2cd99;
+  color: #888;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 1px 1px #fa8d8e;
+}
+
+.carousel-button:hover {
+  cursor: pointer;
+  background: #fa8d8e;
+  box-shadow: 1px 1px #f2cd99;
+  color: white;
+}
+#modal {
+  background-color: rgba(37, 111, 108, 0.3);
+  position: center;
+  top: auto;
+  left: auto;
+  height: 50%;
+  width: 50%;
+  z-index: 2;
+  overflow: auto;
+  margin: 25px auto;
+  display: none;
 }
 #modal-textbox {
-    background-color: white;
-    height: 135px;
-    width: 255px;
-    border-radius: 5px;
-    margin: 25px auto;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  height: 135px;
+  width: 255px;
+  border-radius: 5px;
+  margin: 25px auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 #close {
-    background-color: rgba(37, 111, 108, 0.3);
-    border-radius: 5px;
-    margin-top: 3px;
+  background-color: rgba(37, 111, 108, 0.3);
+  border-radius: 5px;
+  margin-top: 3px;
 }

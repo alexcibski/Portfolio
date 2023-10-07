@@ -33,7 +33,7 @@ const makeBig2 = () => {
 const makeSmall2 = () => {
     boxTwo.style.width = '110px';
     boxTwo.style.height = '80px';
-    boxTwo.innerText = 'Minesweeper'
+    boxTwo.innerText = 'JavaBook'
     boxTwo.style.backgroundColor = 'lightskyblue';
 
 }
@@ -54,7 +54,7 @@ const makeBig3 = () => {
 const makeSmall3 = () => {
     box3.style.width = '110px';
     box3.style.height = '80px';
-    box3.innerText = 'Tree Dichotomous Key'
+    box3.innerText = 'MyHikes'
     box3.style.backgroundColor = 'lightskyblue';
 
 }
@@ -75,7 +75,7 @@ const makeBig4 = () => {
 const makeSmall4 = () => {
     box4.style.width = '110px';
     box4.style.height = '80px';
-    box4.innerText = 'Bananagram'
+    box4.innerText = 'Karaoke Sidkekick'
     box4.style.backgroundColor = 'lightskyblue';
 
 }
